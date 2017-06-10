@@ -1,15 +1,40 @@
-<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <title>首页</title>
 </head>
 <body>
-
+    <nav class="nav">
+        <div class="nav-content clear">
+            <div class="logo"><img src="img/logo.jpg" width="28" height="28" alt="logo"></div>
+            <div class="user-info">欢迎123</div>
+        </div>
+    </nav>
+    <section class="banner">
+        <div class="slider-container">
+            <div class="slider-content">
+                <div><img id="img" src="img/banner1.jpg" width="100%" alt="banner"></div>
+                <div><img src="img/banner1.jpg" width="100%" alt="banner"></div>
+                <div><img src="img/banner1.jpg" width="100%" alt="banner"></div>
+            </div>
+            <div class="slider-dot">
+                <span class="dot-item"></span>
+                <span class="dot-item"></span>
+                <span class="dot-item"></span>
+            </div>
+            <div class="arrow-left"><</div>
+            <div class="arrow-right">></div>
+        </div>
+    </section>
+    <section class="content"></section>
+    <footer class="footer"></footer>
 </body>
 <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="js/slider.js"></script>
+<script src="js/main.js"></script>
 </html>
