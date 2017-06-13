@@ -60,6 +60,7 @@ body{
 .list-container{
     width:960px;
     margin: 0 auto;
+    margin-bottom:30px;
 }
 .list-item{
     border:1px solid #eee;
@@ -92,6 +93,10 @@ body{
     font-weight:normal;
     height: 34px;
     line-height: 34px;
+}
+.money{
+    margin-right:15px;
+    color: #fa6041;
 }
 .info,.stage{
     color: #666;

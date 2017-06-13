@@ -16,7 +16,7 @@ $(document).ready(function () {
     function  getData() {
         $.getJSON('js/list.json',function (data) {
             listsData=data.result;
-            renderHtml(listsData)
+            pagination(listsData);
         })
     }
 //    事件绑定
@@ -66,6 +66,23 @@ $(document).ready(function () {
                 '</div>';
             $('.list-container').append(htmStr);
         })
+
+    }
+//    初始化分页
+    function pagination(opts) {
+        var pageSize=5,
+              totalPages=Math.ceil(opts.length/pageSize),
+             totalCounts=opts.length;
+
+        $('.pagination').pagination({
+            'totalPages':totalPages,
+            'totalCounts':totalCounts,
+            'pageSize':pageSize,
+            'onPageChange':function (pageIndex) {
+                var data = opts.slice(pageIndex*pageSize,(pageIndex+1)*pageSize)
+                renderHtml(data)
+            }
+        });
     }
 
 })

@@ -1,0 +1,24 @@
+.pagination{
+    margin: 0 auto;
+    padding: 10px 0;
+    text-align: center;
+    width:400px;
+}
+.pagination span{
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    line-height:28px;
+    text-align: center;
+    border:1px solid #ccc;
+    cursor: pointer;
+    margin: 0 5px;
+}
+.pagination span:hover,.pagination span.active{
+    background-color: #00b38a;
+    border-color: #00b38a;
+    color:#fff;
+}
+.prove-btn,.next-btn{
+    width: 60px !important;
+}
