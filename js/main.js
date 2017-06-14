@@ -27,18 +27,18 @@ $(document).ready(function () {
         })
         $('.search-btn').click(function () {
             var searchStr=$('.search-text').val();
-            seachData(searchStr);
+            searchData(searchStr);
         })
     }
 //    搜索数据
-    function seachData(str) {
+    function searchData(str) {
         var data=[];
         listsData.forEach(function (item) {
             if(item.positionName.indexOf(str)!=-1){
                 data.push(item);
             }
         })
-        renderHtml(data)
+        pagination(data);
     }
 //    渲染页面
     function renderHtml(data) {

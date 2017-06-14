@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94a4af9e-a566-4f5e-bcd9-398acf43317d" name="默认的" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/pagination.js" afterPath="$PROJECT_DIR$/js/pagination.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="717">
-              <caret line="72" column="22" lean-forward="false" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
+            <state relative-caret-position="267">
+              <caret line="73" column="53" lean-forward="true" selection-start-line="73" selection-start-column="53" selection-end-line="73" selection-end-column="53" />
               <folding>
                 <element signature="e#0#49#0" expanded="false" />
               </folding>
@@ -73,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pagination.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pagination.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/pagination.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="1467">
+              <caret line="64" column="2" lean-forward="false" selection-start-line="64" selection-start-column="2" selection-end-line="64" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -99,6 +98,7 @@
       <find>\&lt;html lang\=\&quot;en\&quot;\&gt;\n\&lt;head\&gt;\n    \&lt;meta charset\=\&quot;UTF\-8\&quot;\&gt;\n    \&lt;meta name\=\&quot;viewport\&quot;\n          content\=\&quot;width\=device\-width\, user\-scalable\=no\, initial\-scale\=1\.0\, maximum\-scale\=1\.0\, minimum\-scale\=1\.0\&quot;\&gt;\n    \&lt;meta http\-equiv\=\&quot;X\-UA\-Compatible\&quot; content\=\&quot;ie\=edge\&quot;\&gt;\n    \&lt;link rel\=\&quot;stylesheet\&quot; href\=\&quot;css\/main\.css\&quot;\&gt;\n    \&lt;link rel\=\&quot;stylesheet\&quot; href\=\&quot;css\/slider\.css\&quot;\&gt;\n    \&lt;title\&gt;首页\&lt;\/title\&gt;\n\&lt;\/head\&gt;\n\&lt;body\&gt;\n    \&lt;nav class\=\&quot;nav\&quot;\&gt;\n        \&lt;div class\=\&quot;nav\-content clear\&quot;\&gt;\n            \&lt;div class\=\&quot;logo\&quot;\&gt;\&lt;img src\=\&quot;img\/logo\.jpg\&quot; width\=\&quot;28\&quot; height\=\&quot;28\&quot; alt\=\&quot;logo\&quot;\&gt;\&lt;\/div\&gt;\n            \&lt;div class\=\&quot;user\-info\&quot;\&gt;欢迎123\&lt;\/div\&gt;\n        \&lt;\/div\&gt;\n    \&lt;\/nav\&gt;\n    \&lt;section class\=\&quot;banner\&quot;\&gt;\n        \&lt;div class\=\&quot;slider\-container\&quot;\&gt;\n            \&lt;div class\=\&quot;slider\-content\&quot;\&gt;\n                \&lt;div\&gt;\&lt;img src\=\&quot;img\/banner1\.jpg\&quot; width\=\&quot;100\%\&quot; alt\=\&quot;banner\&quot;\&gt;\&lt;\/div\&gt;\n                \&lt;div\&gt;\&lt;img src\=\&quot;img\/banner1\.jpg\&quot; width\=\&quot;100\%\&quot; alt\=\&quot;banner\&quot;\&gt;\&lt;\/div\&gt;\n                \&lt;div\&gt;\&lt;img src\=\&quot;img\/banner1\.jpg\&quot; width\=\&quot;100\%\&quot; alt\=\&quot;banner\&quot;\&gt;\&lt;\/div\&gt;\n            \&lt;\/div\&gt;\n            \&lt;div class\=\&quot;slider\-dot\&quot;\&gt;\n                \&lt;span class\=\&quot;dot\-item\&quot;\&gt;\&lt;\/span\&gt;\n                \&lt;span class\=\&quot;dot\-item\&quot;\&gt;\&lt;\/span\&gt;\n                \&lt;span class\=\&quot;dot\-item\&quot;\&gt;\&lt;\/span\&gt;\n            \&lt;\/div\&gt;\n            \&lt;div class\=\&quot;arrow\-left\&quot;\&gt;\&lt;\&lt;\/div\&gt;\n            \&lt;div class\=\&quot;arrow\-right\&quot;\&gt;\&gt;\&lt;\/div\&gt;\n        \&lt;\/div\&gt;\n    \&lt;\/section\&gt;\n    \&lt;section class\=\&quot;content\&quot;\&gt;\&lt;\/section\&gt;\n    \&lt;footer class\=\&quot;footer\&quot;\&gt;\&lt;\/footer\&gt;\n\&lt;\/body\&gt;\n\&lt;script src\=\&quot;http\:\/\/apps\.bdimg\.com\/libs\/jquery\/2\.1\.4\/jquery\.min\.js\&quot;\&gt;\&lt;\/script\&gt;\n\&lt;script src\=\&quot;js\/slider\.js\&quot;\&gt;\&lt;\/script\&gt;\n\&lt;script src\=\&quot;js\/main\.js\&quot;\&gt;\&lt;\/script\&gt;\n\&lt;\/html\&gt;</find>
       <find>timer</find>
       <find>prove</find>
+      <find>seachData</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -113,9 +113,9 @@
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/js/list.json" />
         <option value="$PROJECT_DIR$/css/pagination.css" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/pagination.js" />
+        <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
   </component>
@@ -303,12 +303,12 @@
       <workItem from="1497100129928" duration="5533000" />
       <workItem from="1497232780225" duration="11683000" />
       <workItem from="1497333512561" duration="12953000" />
-      <workItem from="1497403330924" duration="3502000" />
+      <workItem from="1497403330924" duration="5030000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35588000" />
+    <option name="totallyTimeSpent" value="37116000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -320,7 +320,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19178082" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -567,16 +567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="717">
-          <caret line="72" column="22" lean-forward="false" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#49#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
@@ -587,9 +577,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/pagination.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="1467">
+          <caret line="64" column="2" lean-forward="false" selection-start-line="64" selection-start-column="2" selection-end-line="64" selection-end-column="2" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="73" column="53" lean-forward="true" selection-start-line="73" selection-start-column="53" selection-end-line="73" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#49#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
