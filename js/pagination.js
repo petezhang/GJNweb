@@ -26,15 +26,9 @@ function Pagination(elem,opts) {
 var pagePrototype=Pagination.prototype;
 
 pagePrototype.init=function () {
-    var $elem = this.elem;
-    var _self=this;
-    $elem.find('.prove-btn').click(function () {
-
-    })
     //初始化分页组件
     this.renderPages();
     this.eventBind();
-
 }
 //渲染分页组件
 pagePrototype.renderPages=function () {
