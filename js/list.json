@@ -48,7 +48,56 @@
   "formatCreateTime": "1天前发布",
   "companyFullName": "畅移（上海）信息科技有限公司",
   "adWord": 0
-},
+},{
+    "createTime": "2017-06-12 10:05:13",
+    "companyId": 19355,
+    "positionName": "web前端开发",
+    "workYear": "3-5年",
+    "education": "大专",
+    "jobNature": "全职",
+    "companyShortName": "畅移云工作",
+    "city": "苏州",
+    "salary": "8k-15k",
+    "financeStage": "成长型(A轮)",
+    "positionId": 3132504,
+    "companyLogo": "image1/M00/00/24/Cgo8PFTUWHuAMpq1AAA9tnbs3O8541.png",
+    "positionAdvantage": "五险一金,年终奖,零食多多,技术大牛",
+    "approve": 1,
+    "industryField": "企业服务",
+    "district": "工业园区",
+    "score": 0,
+    "companyLabelList": [
+      "五险一金",
+      "弹性工作",
+      "年度旅游",
+      "岗位晋升"
+    ],
+    "positionLables": [
+      "js",
+      "HTML",
+      "JavaScript"
+    ],
+    "industryLables": [],
+    "companySize": "150-500人",
+    "imState": "today",
+    "businessZones": [
+      "湖东"
+    ],
+    "lastLogin": 1497258940000,
+    "publisherId": 220627,
+    "explain": null,
+    "plus": null,
+    "pcShow": 0,
+    "appShow": 0,
+    "deliver": 0,
+    "gradeDescription": null,
+    "promotionScoreExplain": null,
+    "firstType": "开发/测试/运维类",
+    "secondType": "前端开发/移动开发",
+    "formatCreateTime": "1天前发布",
+    "companyFullName": "畅移（上海）信息科技有限公司",
+    "adWord": 0
+  },
 {
 "createTime": "2017-05-22 09:31:33",
 "companyId": 3564,

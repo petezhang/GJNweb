@@ -70,7 +70,7 @@ $(document).ready(function () {
     }
 //    初始化分页
     function pagination(opts) {
-        var pageSize=5,
+        var pageSize=4,
               totalPages=Math.ceil(opts.length/pageSize),
              totalCounts=opts.length;
 
@@ -79,7 +79,7 @@ $(document).ready(function () {
             'totalCounts':totalCounts,
             'pageSize':pageSize,
             'onPageChange':function (pageIndex) {
-                var data = opts.slice(pageIndex*pageSize,(pageIndex+1)*pageSize)
+                var data = opts.slice((pageIndex-1)*pageSize,pageIndex*pageSize)
                 renderHtml(data)
             }
         });

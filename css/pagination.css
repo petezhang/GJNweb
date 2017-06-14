@@ -2,7 +2,6 @@
     margin: 0 auto;
     padding: 10px 0;
     text-align: center;
-    width:400px;
 }
 .pagination span{
     display: inline-block;
@@ -19,6 +18,6 @@
     border-color: #00b38a;
     color:#fff;
 }
-.prove-btn,.next-btn{
+.prove,.next{
     width: 60px !important;
 }
