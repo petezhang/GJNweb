@@ -14,7 +14,7 @@ $(document).ready(function () {
     }
     // 渲染列表数组
     function  getData() {
-        $.getJSON('js/list.json',function (data) {
+        $.getJSON('data/list.json',function (data) {
             listsData=data.result;
             pagination(listsData);
         })

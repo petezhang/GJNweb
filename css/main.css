@@ -13,6 +13,7 @@ body{
     height: 0;
     clear: both;
 }
+/*index*/
 .nav{
     width:100%;
     height: 42px;
@@ -142,3 +143,132 @@ body{
 .footer{
     height: 100px;
 }
+/*index*/
+/*login*/
+.login-container{
+    position: relative;
+}
+.login-bg{
+    width:100%;
+    height: 360px;
+    background-color: #00b38a;
+}
+.login-content{
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    width: 320px;
+    margin-left: -200px;
+    background-color: #ffffff;
+    border:1px solid #ccc;
+    border-radius: 4px;
+    padding: 40px;
+}
+.name,.password,.remember{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.name label,.password label{
+    width: 60px;
+    display: inline-block;
+    height:40px;
+    line-height:40px;
+    font-size: 16px;
+}
+.remember label{
+    height:40px;
+    line-height:40px;
+    font-size: 14px;
+    color: #aaa;
+}
+.name input,.password input{
+width: 240px;
+height:30px;
+line-height:40px;
+outline: none;
+padding-left: 10px;
+color: #666;
+border:1px solid #cccccc;
+border-radius: 2px;
+overflow: hidden;
+font-size: 16px;
+}
+.login-btn{
+    border: none;
+    background-color: #00b38a;
+    color: #ffffff;
+    font-size: 16px;
+    height: 40px;
+    line-height:40px;
+    width: 100%;
+    outline:none;
+    cursor: pointer;
+}
+.login-error{
+    margin-bottom: 10px;
+    color: red;
+    display: none;
+}
+/*login*/
+/*register*/
+.register-container{
+    position: relative;
+}
+.register-bg{
+    width:100%;
+    height: 360px;
+    background-color: #00b38a;
+}
+.register-content{
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    width: 320px;
+    margin-left: -200px;
+    background-color: #ffffff;
+    border:1px solid #ccc;
+    border-radius: 4px;
+    padding: 40px;
+}
+.info-bar{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.info-bar label{
+    width: 60px;
+    display: inline-block;
+    height:40px;
+    line-height:40px;
+    font-size: 16px;
+}
+.info-bar input{
+    width: 240px;
+    height:30px;
+    line-height:40px;
+    outline: none;
+    padding-left: 10px;
+    color: #666;
+    border:1px solid #cccccc;
+    border-radius: 2px;
+    overflow: hidden;
+    font-size: 16px;
+}
+.register-btn{
+    border: none;
+    background-color: #00b38a;
+    color: #ffffff;
+    font-size: 16px;
+    height: 40px;
+    line-height:40px;
+    width: 100%;
+    outline:none;
+    cursor: pointer;
+}
+.register-error{
+    margin-bottom: 10px;
+    color: red;
+    /*display: none;*/
+}
+/*register*/
