@@ -42,17 +42,29 @@ $(document).ready(function () {
     }
 //    验证输入内容合法性
     function checkInfo(registerData) {
+        var userReg=/^1[3578]\d{9}$/;
+        mailReg=/^[\w]+@[\w]+\.[\w]+$/
         if(!registerData.userName){
             showError('.user-name','用户名不能为空')
+            return;
+        }else if(!userReg.test(registerData.userName)){
+            showError('.user-name','用户名格式不正确')
+            return;
         }
         if(!registerData.mail){
             showError('.mail','邮箱不能为空')
+            return;
+        }else if(!mailReg.test(registerData.mail)){
+            showError('.mail','邮箱不格式不正确')
+            return;
         }
         if(!registerData.password){
             showError('.pwd','密码不能为空')
+            return;
         }
         if(registerData.password!=registerData.pwdNext){
             showError('.pwd-next','两次密码不一致')
+            return;
         }
         return true;
     }
